@@ -1,0 +1,6 @@
+[submodule "_assets/plugin/reveal.js-plugins"]
+	path = _assets/plugin/reveal.js-plugins
+	url = https://github.com/rajgoel/reveal.js-plugins/
+[submodule "_assets/plugin/reveal.js-menu"]
+	path = _assets/plugin/reveal.js-menu
+	url = https://github.com/denehyg/reveal.js-menu

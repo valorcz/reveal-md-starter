@@ -1,0 +1,20 @@
+{
+  "assetsDir": "_assets",
+  "revealOptions": {
+    "auto-animate": true
+  },
+  "scripts": [
+      "_assets/plugin/reveal.js-menu/menu.js",
+      "_assets/plugin/reveal.js-plugins/chart/plugin.js",
+      "_assets/plugin/reveal.js-plugins/chalkboard/plugin.js",
+      "plugin.js"
+  ],
+  "css": [
+      "_assets/plugin/reveal.js-plugins/chalkboard/style.css",
+      "_assets/css/slides.css"
+  ],
+  "staticDir": "_static",
+  "theme": "black",
+  "glob": "**/*.md"
+}
+

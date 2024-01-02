@@ -1,0 +1,16 @@
+{
+  "controls": true,
+  "progress": true,
+  "menu": {
+    "side": "left",
+    "numbers": true,
+    "titleSelector": "h1, h2, h3, h4, h5, h6",
+    "markers": true,
+    "transitions": true,
+    "loadIcons": true
+  },
+  "parallaxBackgroundImage": "images/backdrop2.jpg",
+  "parallaxBackgroundSize": "2000x 768px",
+  "parallaxBackgroundHorizontal": 200,
+  "parallaxBackgroundVertical": 50
+}
