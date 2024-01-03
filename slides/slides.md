@@ -5,12 +5,29 @@ subtitle: With focus on security cases and stories
 date: January 3, 2024
 revealOptions:
     transition: 'slide'
+separator: <!--s-->
+verticalSeparator: <!--v-->
+data-separator-notes: "^Notes:"
 ---
+
+<!-- intro style -->
+<!-- .slide: data-background="images/blue-big-data-digital-background-free-video.jpg" data-state="dim-background" -->
+
+<h2 style="text-align: left">Small peak into</h2>
+<h2 class="r-fit-text">big data analytics</h2>
+
+<div style="text-align: right; opacity: 0.8">
+
+Vašek Lorenc | **2024**
+
+</div>
+
+<!--s-->
 
 <h2 class="r-fit-text">Big Data</h2>
 <h2 class="r-fit-text">can be hard to understand</h2>
 
----
+<!--s-->
 
 ## Motivation
 
@@ -38,12 +55,12 @@ revealOptions:
 
 </div>
 
----
+<!--s-->
 
-## Data Analytics
+<h2 class="r-fit-text">Data Analytics</h2>
 
-> The subtle art of transformation of
-> buckets of rubbish into pieces of
+> The subtle art of **transformation**
+> of buckets of rubbish into pieces of
 > meaningful, easy to understand
 > information.
 
@@ -51,27 +68,14 @@ Notes:
 
 This is relevant for the speaker or the printed handouts.
 
----
+<!--s-->
 
-## Charting Available
-
-<canvas data-chart="line">
-<!--
-{
- "data": {
-  "labels": ["January"," February"," March"," April"," May"," June"," July"],
-  "datasets":[
-   {
-    "data":[65,59,80,81,56,55,40],
-    "label":"My first dataset","backgroundColor":"rgba(20,220,220,.8)"
-   },
-   {
-    "data":[28,48,40,19,86,27,90],
-    "label":"My second dataset","backgroundColor":"rgba(220,120,120,.8)"
-   }
-  ]
- }
-}
--->
-</canvas>
+<!-- Animation example -->
+<section data-auto-animate>
+<h2>Thumbs up</h2>
+</section>
+<section data-auto-animate>
+<h2>Thumbs up</h2>
+<h3><i style="color: red" class="fa-solid fa-thumbs-up"></i></h3>
+</section>
 

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Small Peak into Big Data Analytics</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/reset.css" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/base16/zenburn.css" />
+
+    <link rel="stylesheet" href="./_assets/_assets/plugin/reveal.js-plugins/chalkboard/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="./_assets/_assets/plugin/reveal.js-plugins/customcontrols/style.css" />
+    <link rel="stylesheet" href="./_assets/_assets/plugin/reveal.js-toc-progress/plugin/toc-progress/toc-progress.css" />
+    <link rel="stylesheet" href="./_assets/_assets/css/slides.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+<!-- intro style -->
+<!-- .slide: data-background="images/blue-big-data-digital-background-free-video.jpg" data-state="dim-background" -->
+
+<h2 style="text-align: left">Small peak into</h2>
+<h2 class="r-fit-text">big data analytics</h2>
+
+<div style="text-align: right; opacity: 0.8">
+
+Vašek Lorenc | **2024**
+
+</div>
+
+</script></section><section  data-markdown><script type="text/template">
+
+<h2 class="r-fit-text">Big Data</h2>
+<h2 class="r-fit-text">can be hard to understand</h2>
+
+</script></section><section  data-markdown><script type="text/template">
+
+## Motivation
+
+<div id="left">
+
+- Fake News
+- Analytical Mind
+- Data is the New Bacon!
+- Great Jobs
+- Well Paid
+- It’s Cool
+- (Research) **Reproducibility**
+
+</div>
+
+<div id="right">
+
+- **Automation**
+- Supports Curiosity
+- Myths Debunking
+- Statistics
+- Mathematics
+- **Visualizations**
+- Stories
+
+</div>
+
+</script></section><section  data-markdown><script type="text/template">
+
+<h2 class="r-fit-text">Data Analytics</h2>
+
+> The subtle art of **transformation**
+> of buckets of rubbish into pieces of
+> meaningful, easy to understand
+> information.
+
+<aside class="notes"><p>This is relevant for the speaker or the printed handouts.</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+
+<!-- Animation example -->
+<section data-auto-animate>
+<h2>Thumbs up</h2>
+</section>
+<section data-auto-animate>
+<h2>Thumbs up</h2>
+<h3><i style="color: red" class="fa-solid fa-thumbs-up"></i></h3>
+</section>
+
+</script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        slideNumber: true,
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"transition":"slide","center":true,"controls":true,"progress":true,"menu":{"side":"left","numbers":true,"titleSelector":"h1, h2, h3, h4, h5, h6","markers":true,"transitions":true,"loadIcons":true},"chalkboard":{"boardmarkerWidth":10,"chalkWidth":10,"readOnly":false},"chart":{"defaults":{"color":"lightgray","scale":{"beginAtZero":true,"ticks":{"stepSize":1},"grid":{"color":"lightgray"}}}},"customcontrols":{"controls":[{"id":"toggle-overview","title":"Toggle overview (O)","icon":"<i class=\"fa fa-th\"></i>","action":"Reveal.toggleOverview();"},{"icon":"<i class=\"fa fa-pen-square\"></i>","title":"Toggle chalkboard (B)","action":"RevealChalkboard.toggleChalkboard();"},{"icon":"<i class=\"fa fa-pen\"></i>","title":"Toggle notes canvas (C)","action":"RevealChalkboard.toggleNotesCanvas();"}]},"parallaxBackgroundHorizontal":200,"parallaxBackgroundVertical":50}, queryOptions);
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/chart/plugin.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="./_assets/_assets/plugin/reveal.js-menu/menu.js"></script>
+    <script src="./_assets/_assets/plugin/reveal.js-plugins/chalkboard/plugin.js"></script>
+    <script src="./_assets/_assets/plugin/reveal.js-plugins/customcontrols/plugin.js"></script>
+    <script src="./_assets/_assets/plugin/reveal.js-toc-progress/plugin/toc-progress/toc-progress.js"></script>
+    <script src="./_assets/plugin.js"></script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
