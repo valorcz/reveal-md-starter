@@ -9,10 +9,12 @@ static:
 	# echo remove the old files
 	rm -rf _static
 	# run a new build
-	reveal-md $(slides) --static --static-dirs _assets/plugin
+	reveal-md $(slides) --static 
+	# fix the plugin folders
+	cp -a _assets/plugin _static/_assets/_assets
 
 pdf:
-	reveal-md $(slides) --print _pdf/printed-handouts.pdf --print-size A4
+	DEBUG=reveal-md reveal-md $(slides) --print _pdf/printed-handouts.pdf --print-size A4 --theme white
 
 cleanup:
 	# echo remove the old files

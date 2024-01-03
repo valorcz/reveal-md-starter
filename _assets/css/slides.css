@@ -145,10 +145,12 @@ code:not(:empty):not(:has(*)):not(pre code) {
  * Print
  *********************************************/
 
+/*
 @media print {
 	.presentation-only, .audio-controls, .slide-menu-button, .slide-number {
 		display: none!important; 
 	}
 }
+*/
 
 

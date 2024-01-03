@@ -4,8 +4,8 @@
   "progress": true,
   "menu": {
     "side": "left",
-    "numbers": true,
-    "titleSelector": "h1, h2, h3, h4, h5, h6",
+    "numbers": false,
+    "titleSelector": "h2",
     "markers": true,
     "transitions": true,
     "loadIcons": true
@@ -17,11 +17,11 @@
   },
   "chart": {
     "defaults": {
-       "color": "lightgray",
+       "color": "white",
        "scale": {
           "beginAtZero": true,
-          "ticks": { "stepSize": 1 },
-          "grid": { "color": "lightgray" }
+          "ticks": { "stepSize": 20 },
+          "grid": { "color": "rgba(120,120,120,.8)" }
       }
    }
   },
