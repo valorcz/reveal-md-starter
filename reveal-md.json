@@ -1,16 +1,22 @@
 {
   "assetsDir": "_assets",
   "revealOptions": {
-    "auto-animate": true
+    "auto-animate": true,
+    "center": false
   },
   "scripts": [
+      "https://cdn.jsdelivr.net/npm/chart.js",
       "_assets/plugin/reveal.js-menu/menu.js",
       "_assets/plugin/reveal.js-plugins/chart/plugin.js",
       "_assets/plugin/reveal.js-plugins/chalkboard/plugin.js",
+      "_assets/plugin/reveal.js-plugins/customcontrols/plugin.js",
+      "_assets/plugin/reveal.js-toc-progress/plugin/toc-progress/toc-progress.js",
       "plugin.js"
   ],
   "css": [
       "_assets/plugin/reveal.js-plugins/chalkboard/style.css",
+      "_assets/plugin/reveal.js-plugins/customcontrols/style.css",
+      "_assets/plugin/reveal.js-toc-progress/plugin/toc-progress/toc-progress.css",
       "_assets/css/slides.css"
   ],
   "staticDir": "_static",

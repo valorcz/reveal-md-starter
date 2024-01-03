@@ -47,7 +47,7 @@ How to turn handwritten ZIP codes from envelopes into numbers
 
 ## Charting Available
 
-<canvas data-chart="line">
+<canvas class="stretch" data-chart="line">
 Month, January, February, March, April, May, June, July
 My first dataset, 65, 59, 80, 81, 56, 55, 40
 My second dataset, 28, 48, 40, 19, 86, 27, 90

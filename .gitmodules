@@ -4,3 +4,6 @@
 [submodule "_assets/plugin/reveal.js-menu"]
 	path = _assets/plugin/reveal.js-menu
 	url = https://github.com/denehyg/reveal.js-menu
+[submodule "_assets/plugin/reveal.js-toc-progress"]
+	path = _assets/plugin/reveal.js-toc-progress
+	url = https://github.com/e-gor/Reveal.js-TOC-Progress
