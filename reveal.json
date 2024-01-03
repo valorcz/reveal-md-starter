@@ -1,5 +1,5 @@
 {
-  "center": false,
+  "center": true,
   "controls": true,
   "progress": true,
   "menu": {
@@ -15,7 +15,16 @@
     "chalkWidth": 10,
     "readOnly": false
   },
-  "chart": {},
+  "chart": {
+    "defaults": {
+       "color": "lightgray",
+       "scale": {
+          "beginAtZero": true,
+          "ticks": { "stepSize": 1 },
+          "grid": { "color": "lightgray" }
+      }
+   }
+  },
   "customcontrols": {
       "controls": [
           {

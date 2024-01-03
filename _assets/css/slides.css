@@ -17,6 +17,15 @@
 	width:48%;
 	font-size: 0.85em;
 	line-height: 1.5; 
+    border-right: 1px solid white;
+}
+
+.slides #left li {
+    list-style-type: none;
+}
+
+.slides li strong {
+    color: #ff8a2e;
 }
 
 .slides #right {
@@ -27,6 +36,10 @@
 	width:48%;
 	font-size: 0.85em;
 	line-height: 1.5; 
+}
+
+.slides #right li {
+    list-style-type: none;
 }
 
 /*********************************************

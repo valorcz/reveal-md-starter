@@ -1,13 +1,13 @@
 {
   "assetsDir": "_assets",
   "revealOptions": {
-    "auto-animate": true,
-    "center": false
+    "auto-animate": false
   },
   "scripts": [
       "https://cdn.jsdelivr.net/npm/chart.js",
+      "https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/chart/plugin.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js",
       "_assets/plugin/reveal.js-menu/menu.js",
-      "_assets/plugin/reveal.js-plugins/chart/plugin.js",
       "_assets/plugin/reveal.js-plugins/chalkboard/plugin.js",
       "_assets/plugin/reveal.js-plugins/customcontrols/plugin.js",
       "_assets/plugin/reveal.js-toc-progress/plugin/toc-progress/toc-progress.js",
@@ -15,6 +15,7 @@
   ],
   "css": [
       "_assets/plugin/reveal.js-plugins/chalkboard/style.css",
+	  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
       "_assets/plugin/reveal.js-plugins/customcontrols/style.css",
       "_assets/plugin/reveal.js-toc-progress/plugin/toc-progress/toc-progress.css",
       "_assets/css/slides.css"
