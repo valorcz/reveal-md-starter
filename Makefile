@@ -7,4 +7,4 @@ static:
 	reveal-md slides/slides.md --static
 
 pdf:
-	reveal-md slides/slides.md --print _pdf/printed-handouts.pdf
+	reveal-md slides/slides.md --print _pdf/printed-handouts.pdf --print-size A4

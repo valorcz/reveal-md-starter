@@ -42,5 +42,7 @@
             "action": "RevealChalkboard.toggleNotesCanvas();"
           }
         ]
-  }
+  },
+  "parallaxBackgroundHorizontal": 200,
+  "parallaxBackgroundVertical": 50
 }

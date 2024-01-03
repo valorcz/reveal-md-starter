@@ -1,17 +1,39 @@
+
+/* This is a hack I read on 
+   https://www.raymondcamden.com/2016/09/06/adding-opacity-to-a-background-image-in-revealjs
+*/
+.dim-background .backgrounds {
+	opacity: 0.5 !important;
+   -webkit-filter: blur(4px) saturate(.5) brightness(.8);
+   -moz-filter: blur(4px) saturate(.7) brightness(.9);
+   -o-filter: blur(4px) saturate(.7) brightness(.9);
+   -ms-filter: blur(4px) saturate(.7) brightness(.9);
+   filter: blur(4px) saturate(.7) brightness(.9);
+}
+
 .reveal {
     background-color: #000000;
-    opacity: 0.8;
+    background-color: #00002a;
+    /* opacity: 0.8; */
     background-size: 12px 12px;
-    background-image: repeating-linear-gradient(45deg, #383a89 0, #383a89 1.2000000000000002px, #000000 0, #000000 50%);
+    /* background-image: repeating-linear-gradient(45deg, #383a89 0, #383a89 1.2000000000000002px, #000000 0, #000000 50%); */
 }
 
 .slides {
     font-size: 0.75em;
 }
 
+/* Reveal Menu styling */
+
+.slide-menu-wrapper .slide-menu-panel.active-menu-panel {
+    background-color: black;
+}
+
+/* Two columns, non-grid design */
+
 .slides #left {
 	margin: 10px 0 15px 20px;
-	text-align: left;
+	/* text-align: left; */
 	float: left;
 	z-index:-10;
 	width:48%;
@@ -22,10 +44,6 @@
 
 .slides #left li {
     list-style-type: none;
-}
-
-.slides li strong {
-    color: #ff8a2e;
 }
 
 .slides #right {
@@ -40,6 +58,11 @@
 
 .slides #right li {
     list-style-type: none;
+}
+
+/* Let's try this strong coloring */
+.slides strong {
+    color: #ff8a2e;
 }
 
 /*********************************************
