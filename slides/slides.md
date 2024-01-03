@@ -1,47 +1,55 @@
 ---
-author: Jonathan Soma
-title: Two Deep Learning Papers
-subtitle: Robustness and Security in ML Systems, Spring 2021
-date: January 19, 2021
+author: Vašek Lorenc
+title: Small Peak into Big Data Analytics
+subtitle: With focus on security cases and stories
+date: January 3, 2024
 revealOptions:
     transition: 'slide'
 ---
 
-## Handwritten Digit Recognition with a Back-Propagation Network, 1990
-
-Y. Le Cun, B. Boser, J. S. Denker, D. Henderson, R. E. Howard, W. Hubbard, and L. D. Jackel
-
-a.k.a. LeCun90c
+<h2 class="r-fit-text">BIG DATA</h2>
+<h2 class="r-fit-text">can be hard to understand</h2>
 
 ---
 
-## Yann LeCun
+## Motivation
 
-![Yann LeCun on Wikipedia](images/lecun.png)
+<div id="left">
 
-Chief AI Scientist (and several other titles) at Facebook, "founding father of convolutional nets."
+- Fake News
+- Analytical Mind
+- Data is the New Bacon!
+- Great Jobs
+- Well Paid
+- It’s Cool
+- (Research) **Reproducibility**
+
+</div>
+
+<div id="right">
+
+- **Automation**
+- Supports Curiosity
+- Myths Debunking
+- Statistics
+- Mathematics
+- **Visualizations**
+- Stories
+
+</div>
 
 ---
 
-## Yann Le Cun vs. Yann LeCun
+## Data Analytics
 
-> All kinds of badly programmed computers thought that "Le" was my middle name. Even the science citation index knew me as "Y. L. Cun", which is one of the reasons I now spell my name "LeCun".
->
-> From Yann's [Fun Stuff](http://yann.lecun.com/ex/fun/) page
->
-> Also: [Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
+> The subtle art of transformation of
+> buckets of rubbish into pieces of
+> meaningful, easy to understand
+> information.
 
 Notes:
 
 This is relevant for the speaker or the printed handouts.
-
----
-
-### The Problem
-
-How to turn handwritten ZIP codes from envelopes into numbers
-
-![Examples of original zipcodes from the testing set](images/original.png)
 
 ---
 
